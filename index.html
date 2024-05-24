@@ -7,7 +7,48 @@
   <title>Cash Register App</title>
 </head>
 <body>
-  
+  <h1>Cash Register Project</h1>
+  <div id="change-due"></div>
+    <div class="cash-input-container">
+      <label for="cash">Enter cash from customer:</label>
+      <input type="number" id="cash">
+      <button type="button" id="purchase-btn">Purchase</button>
+    </div>
+  <div class="drawer-container">
+    <div class="total-container">
+      <div class="total-screen">Total: $3.26</div>
+      <div class="thing"></div>
+    </div>
+    <div class="drawer-body">
+      <div class="drawer-keyboard-container">
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+        <div class="drawer-keyboard"></div>
+      </div>
+      <div class="drawer-change">
+        <p>Change in drawer:</p>
+        <ul>
+          <li class="changes">Pennies: $</li>
+          <li class="changes">Nickels: $</li>
+          <li class="changes">Dimes: $</li>
+          <li class="changes">Quarters: $</li>
+          <li class="changes">Ones: $</li>
+          <li class="changes">Fives: $</li>
+          <li class="changes">Tens: $</li>
+          <li class="changes">Twenties: $</li>
+          <li class="changes">Hundreds: $</li>
+        </ul>
+      </div>
+    </div>
+    <div class="drawer-last-part">
+      <div class="circle"></div>
+    </div>  </div>
   <script src="script.js"></script>
 </body>
 </html>
