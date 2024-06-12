@@ -8,15 +8,15 @@
 </head>
 <body>
   <h1>Cash Register Project</h1>
-  <div id="change-due"></div>
-    <div class="cash-input-container">
-      <label for="cash">Enter cash from customer:</label>
-      <input type="number" id="cash">
-      <button type="button" id="purchase-btn">Purchase</button>
-    </div>
+  <div id="change-due" class="hidden"></div>
+  <div class="cash-input-container">
+    <label for="cash">Enter cash from customer:</label>
+    <input type="number" id="cash">
+    <button type="button" id="purchase-btn">Purchase</button>
+  </div>
   <div class="drawer-container">
     <div class="total-container">
-      <div class="total-screen">Total: $3.26</div>
+      <div class="total-screen">Total: $1.87</div>
       <div class="thing"></div>
     </div>
     <div class="drawer-body">
@@ -34,15 +34,15 @@
       <div class="drawer-change">
         <p>Change in drawer:</p>
         <ul>
-          <li class="changes">Pennies: $</li>
-          <li class="changes">Nickels: $</li>
-          <li class="changes">Dimes: $</li>
-          <li class="changes">Quarters: $</li>
-          <li class="changes">Ones: $</li>
-          <li class="changes">Fives: $</li>
-          <li class="changes">Tens: $</li>
-          <li class="changes">Twenties: $</li>
-          <li class="changes">Hundreds: $</li>
+          <li>Pennies: $<span class="changes"></span></li>
+          <li>Nickels: $<span class="changes"></span></li>
+          <li>Dimes: $<span class="changes"></span></li>
+          <li>Quarters: $<span class="changes"></span></li>
+          <li>Ones: $<span class="changes"></span></li>
+          <li>Fives: $<span class="changes"></span></li>
+          <li>Tens: $<span class="changes"></span></li>
+          <li>Twenties: $<span class="changes"></span></li>
+          <li>Hundreds: $<span class="changes"></span></li>
         </ul>
       </div>
     </div>
@@ -52,3 +52,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+

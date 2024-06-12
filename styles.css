@@ -8,6 +8,10 @@ li{
   list-style: none;
 }
 
+.hidden{
+  display: none;
+}
+
 body{
   background-color: #03011f;
   height: 100vh;
@@ -23,6 +27,7 @@ h1{
 }
 
 #change-due{
+  text-align: center;
   width: 300px;
   display: flex;
   flex-direction: column;
